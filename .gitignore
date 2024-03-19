@@ -1,9 +1,11 @@
 .DS_Store
 node_modules
 /dist
+/build
 
 
 # local env files
+.env
 .env.local
 .env.*.local
 
@@ -21,3 +23,15 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+/vue.config.js
+/.babelrc
+/.postcssrc.js
